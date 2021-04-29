@@ -6,11 +6,9 @@ body, html {
 
     font-family:arial, sans-serif;
 }
-
 #container  {
     display:flex;
     flex-direction:column;
-    background:red;
 }
 nav {
     padding:6px;
@@ -19,4 +17,36 @@ nav {
     justify-content:flex-end;
     align-items:center;
     font-size:13px;
+}
+nav a {
+    text-decoration:none;
+    color:black;
+}
+#nav-links a {
+    padding-left:15px;
+    line-height: 24px;
+}
+#nav-links {
+    padding-right:15px;
+}
+#nav-apps {
+    padding:4px;
+}
+#nav-apps a span {
+    padding:8px;
+    color:#717479
+}
+#nav-apps a span:hover {
+    background:grey;
+    border-radius:50%;
+}
+#nav-user {
+    padding:6px;
+}
+#nav-user img {
+    width:32px;
+    height:32px;
+    border-radius:50px;
+    padding:2px;
+    box-shadow:0 0 0 2px #249A41
 }
