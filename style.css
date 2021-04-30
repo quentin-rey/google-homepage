@@ -47,12 +47,12 @@ nav a:hover {
 #nav-apps a span {
     padding: 8px;
     color: #717479;
+    border-radius: 50%;
     transition: all ease 150ms;
 }
 
 #nav-apps a span:hover {
     background: rgba(60, 64, 67, 0.08);
-    border-radius: 50%;
 }
 
 #nav-user {
