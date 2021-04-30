@@ -37,7 +37,7 @@ nav a {
     color:#717479
 }
 #nav-apps a span:hover {
-    background:grey;
+    background:rgba(60,64,67,0.08);;
     border-radius:50%;
 }
 #nav-user {
@@ -76,6 +76,11 @@ nav a {
     height:44px;
     display:flex;
     align-items:center;
+    transition: all ease 100ms;
+}
+#searchbar:hover, #searchbar:focus-within {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
 }
 #searchinput {
     width:100%;
@@ -88,7 +93,8 @@ nav a {
 }
 .search-icon {
     padding-right:13px;
-    color:#717479;
+    color: #9aa0a6;
+    font-size: 21px !important;
 }
 .mic-icon {
     padding:0 8px;
