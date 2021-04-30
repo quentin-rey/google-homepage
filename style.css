@@ -78,6 +78,11 @@ nav a {
     height: auto;
 }
 
+#search-container {
+    flex-grow: 1;
+    padding-top: 6px;
+}
+
 #search {
     max-width: 584px;
     margin: 0 auto;
@@ -91,7 +96,7 @@ nav a {
     height: 44px;
     display: flex;
     align-items: center;
-    transition: all ease 100ms;
+    transition: all ease 150ms;
 }
 
 #searchbar:hover,
@@ -117,10 +122,10 @@ nav a {
 }
 
 .mic-icon {
-    padding: 0 8px;
-    width: 24px;
+    width: 26px;
     cursor: pointer;
     vertical-align: middle;
+    padding-right: 2px;
 }
 
 #search-buttons {
@@ -135,12 +140,12 @@ nav a {
     border-radius: 4px;
     color: #3c4043;
     font-size: 14px;
-    margin: 11px 4px;
+    margin: 11px 6px;
     padding: 0 16px;
     height: 36px;
     min-width: 54px;
     cursor: pointer;
-    transition: all ease 100ms;
+    transition: all ease 150ms;
 }
 
 #search-buttons input[type="submit"]:hover {
@@ -148,4 +153,40 @@ nav a {
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
+}
+
+footer {
+    background: #f2f2f2;
+}
+
+#footer-text {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, .54);
+}
+
+#footer-links {
+    padding: 0 15px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width:1200px) {
+    #footer-links {
+        justify-content: space-evenly;
+    }
+}
+
+#footer-links a {
+    text-decoration: none;
+    color: #70757a;
+    padding: 15px;
+    display: inline-block;
+}
+
+#footer-links a:hover {
+    text-decoration: underline;
 }
