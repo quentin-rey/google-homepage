@@ -140,4 +140,12 @@ nav a {
     height: 36px;
     min-width: 54px;
     cursor: pointer;
+    transition: all ease 100ms;
+}
+
+#search-buttons input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
 }
