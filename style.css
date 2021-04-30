@@ -24,7 +24,11 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 #nav-links a {
